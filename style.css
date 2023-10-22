@@ -1,0 +1,342 @@
+/* barlow-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/barlow-v12-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/barlow-v12-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/barlow-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/barlow-v12-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* barlow-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/barlow-v12-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background: #fff;
+}
+.nav {
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 64px;
+  margin-left: 165px;
+}
+.btn {
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: 0;
+  background: #e8eff2;
+  margin-top: 55px;
+  margin-left: 895px;
+}
+.btn:hover {
+  background: #162542;
+  color: white;
+}
+.hero {
+    width: 445px;
+    height: 312px;
+    flex-shrink: 0;
+    margin-top: 152px;
+    margin-left: 165px;
+}
+.hero_content {
+    width: 445px;
+    color: #162542;
+font-family: Barlow;
+font-size: 56px;
+font-weight: 900;
+line-height: 56px; /* 100% */
+text-transform: uppercase;
+}
+.hero_content_description {
+    width: 445px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px; /* 144.444% */
+margin-top: 24px;
+}
+.hero_btn {
+    width: 175px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #F16718;
+
+color: #FFF;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+text-transform: uppercase;
+border: none;
+margin-top: 40px;
+}
+.hero_btn:hover {
+    background: #FF9B62;
+    color: #F16718;
+}
+.hero_btn_span {
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+text-transform: uppercase;
+margin-top: 56px;
+margin-left: 40px;
+}
+.hero_img {
+    width: 1326px;
+height: 746px;
+flex-shrink: 0;
+margin-left: 620px;
+margin-top: -350px;
+border-radius:20px;
+margin-right: 165px;
+}
+.primary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+    gap: 70px 20px;
+  }
+.ptimary_img1 {
+    width: 255px;
+height: 480px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #F16718;
+margin-top: 138px;
+margin-left: 165px;
+}
+.img2 {
+    width: 445px;
+height: 480px;
+flex-shrink: 0;
+border-radius: 20px;
+background: #D8D8D8;
+margin-left: 450.5px;
+margin-top: -480px;
+}
+.content {
+    width: 255px;
+    color: #162542;
+font-family: Barlow;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 36px; /* 112.5% */
+text-transform: uppercase;
+margin-top: -358px;
+margin-left: 1025px;
+}
+.content_paragraph {
+    width: 255px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin-top: 27px;
+margin-left: 1025px;
+}
+.card {
+    margin-top: 168px;
+    display: flex;
+    gap: 30px;
+}
+.card1 {
+width: 1440px;
+height: 1870px;
+background: #FFF;
+margin-left: 165px;
+margin-top: 168px;
+}
+.card_title1 {
+    margin-top: 48px;
+    color: #162542;
+    font-family: Barlow;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px; /* 116.667% */
+    text-transform: uppercase;
+}
+.card_description1 {
+    width: 255px;
+    color: #7B8BAD;
+font-family: Barlow;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin-top: 24px;
+}
+/* card two */
+.card2{
+    width: 1440px;
+    height: 1870px;
+    background: #FFF;
+    margin-top: 168px;
+    }
+    .card_title2 {
+        margin-top: 48px;
+        color: #162542;
+        font-family: Barlow;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 28px; /* 116.667% */
+        text-transform: uppercase;
+    }
+    .card_description2 {
+        width: 255px;
+        color: #7B8BAD;
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin-top: 24px;
+    }
+    /* card three */
+    .card3{
+        width: 1440px;
+        height: 1870px;
+        background: #FFF;
+        margin-top: 168px;
+        }
+        .card_title3 {
+            margin-top: 48px;
+            color: #162542;
+            font-family: Barlow;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 28px; /* 116.667% */
+            text-transform: uppercase; 
+        }
+        .card_description3 {
+            width: 255px;
+            color: #7B8BAD;
+        font-family: Barlow;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px; /* 162.5% */
+        margin-top: 24px;
+        }
+        /* card four */
+        .card4{
+            width: 1440px;
+            height: 1870px;
+            background: #FFF;
+            margin-top: 168px;
+            }
+            .card_title4 {
+                margin-top: 48px;
+                color: #162542;
+                font-family: Barlow;
+                font-size: 24px;
+                font-weight: 900;
+                line-height: 28px; /* 116.667% */
+                text-transform: uppercase; 
+            }
+            .card_description4 {
+                width: 255px;
+                color: #7B8BAD;
+            font-family: Barlow;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px; /* 162.5% */
+            margin-top: 24px;
+            }
+            .footer__content {
+                color: #7B8BAD;
+                font-family: Barlow;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 26px; /* 162.5% */
+              }
+              .footer__content span {
+                color: #7B8BAD;
+                font-family: Barlow;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px;
+              }
+              .footer h3{
+                padding-top: 48px;
+                display: flex;
+                justify-content: center;
+                color: #7b8bad;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                margin-top:-1450px;
+            }
